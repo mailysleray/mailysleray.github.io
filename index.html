@@ -5,40 +5,50 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-
-
-    
-    <ul class="menu">
-        <li>
-            <a href='http://localhost:8383/MaPagWeb/index.html'; 
-            "accueil.html" class="actif">Accueil</a>    
-        </li>
-        <li><label><a href="mesartistes.html">Mes artistes</a></label>
-            <ul>
-                <li><a href='https://open.spotify.com/intl-fr/artist/6dbdXbyAWk2qx8Qttw0knR'; 
-               "josman.html">Josman</a></li>
-                 <li><a href='https://open.spotify.com/intl-fr/artist/6dbdXbyAWk2qx8Qttw0knR'; 
-               "lomepal.html">Lomepal</a></li>
-                 <li><a href='https://open.spotify.com/intl-fr/artist/6dbdXbyAWk2qx8Qttw0knR'; 
-               "luther.html">Luther</a></li>
-               
-               
-            </ul>
-        </li>
-        <li>
-            <a href='https://open.spotify.com/intl-fr/track/0Nx2G2pDyzTy5wqpjl0WWy'; 
-               "musiques.html">Mes musiques</a>
-        </li>
-    </ul>
- 
-    </ul>
     <head>
         <title>Spotify :</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="Monstyle.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body style="background-color:#8A8A8A";>
+   
+    <body style="background-color:#8A8A8A">
+        <header> 
+            <ul class="menu">
+                <li>
+                    <a href='http://localhost:8383/MaPagWeb/index.html'
+                    href="accueil.html" class="actif">Accueil</a>    
+                </li>
+
+
+                <li>
+
+                    <input type="checkbox" id="list-item-1">
+                    <label for="list-item-1" class="fisrt">Mes artistes</label>
+
+                    <ul>
+                        <li><a href='https://open.spotify.com/intl-fr/artist/6dbdXbyAWk2qx8Qttw0knR'
+                                    href="josman.html">Josman</a></li>
+                        <li><a href='https://open.spotify.com/intl-fr/artist/6dbdXbyAWk2qx8Qttw0knR'
+                                    href=lomepal.html">Lomepal</a></li>
+                        <li><a href='https://open.spotify.com/intl-fr/artist/6dbdXbyAWk2qx8Qttw0knR'
+                                    href="luther.html">Luther</a></li>
+                    </ul>
+                </li>
+
+
+
+                <li>
+                    <input type="checkbox" id="list-item-2">
+                    <label for="list-item-2" class="fisrt">Mes musiques</label>
+                    
+                    <ul>
+                        <li><a href='https://open.spotify.com/intl-fr/track/0Nx2G2pDyzTy5wqpjl0WWy' 
+                               href="mainsquiprient.html">Mains qui prient</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
         
           <p id="titre">Spotify :</p>
         
@@ -47,7 +57,7 @@ and open the template in the editor.
                 <a href= 'https://open.spotify.com/intl-fr'> 
                     <img src="images/logo2.png" alt="logo" style="width:30%"/>
             </p>  
-       </p>
+        </p>
 
     </body>
 
