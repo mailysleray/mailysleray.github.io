@@ -4,12 +4,14 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
+
 <html>
     <head>
         <title>Spotify_josman :</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="josman.css" rel="stylesheet" type="text/css"/>
+        <link href="css/josman.css" rel="stylesheet" type="text/css"/>
     </head>
    
     <body style="background-color:#8A8A8A">
