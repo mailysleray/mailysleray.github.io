@@ -8,7 +8,7 @@
 .menu {
     display: flex;              /* Transformation en flexbox */
     padding:0;                  /* Suppression des marges internes */
-    background-color:#iy;     /* Ajout de la couleur d'arrière-plan */
+    background-color: iy;     /* Ajout de la couleur d'arrière-plan */
     justify-content: center     /* Alignements des liens dans le menu */
 }
 
@@ -72,13 +72,20 @@
     color:black;
     font-size:40pt;
     font-family:"Bodoni MT Black";
-    
 }
+
+
 #image{
     text-align: center; 
     
 }
 
+#texte{
+  color:black;
+  font-size:18pt;
+  font-family:"Bodoni MT Black";
+  
+}
 
 
 input[type="checkbox"]{
